@@ -1,0 +1,29 @@
+/* nav */
+
+.navBar{
+    display: flex;
+    border-bottom: 1px solid #F1F1F4 ; 
+    /* transform: matrix(1, 0, 0, -1, 0, 0);; */
+    margin-bottom: 3vh;
+  }
+  
+  .link{
+    /* width: 14vw; */
+    height: 2.5vh;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4vh;
+    line-height: 2.4vh;
+    /* identical to box height, or 156% */
+    color: #556789;
+    padding-bottom: 1.4vh;
+    margin-right:3.5vw;
+    text-align: center;
+  }
+  
+  .clicked-link{
+    color: #83A515;
+    border-bottom: 2px solid;
+    outline: none;
+  }

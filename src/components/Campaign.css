@@ -1,0 +1,28 @@
+.campaign{
+    width :30%; 
+  }
+  
+  .region{
+    height: 1.5vh;
+    font-style: italic;
+    font-size: 1.3vh;
+    line-height: 1.5vh;
+    color: #9CA2B7;
+  }
+  .campaignImg >img{
+    width: 40px ;
+    height: 40px ;
+    border : 1px solid black;
+    box-sizing: border-box;
+  }
+  
+  .game-name{
+    height: 2vh;
+    font-size: 1.5vh ;
+    line-height: 2vh;
+    /* identical to box height, or 150% */
+  
+  
+    color: #556789;
+  }
+  

@@ -1,0 +1,12 @@
+/* CampaignDate */
+.campaignDate{
+    width:25% ;
+    
+  }
+  .days-diff{
+    height: 2vh ;
+    font-size: 1.3vh;
+    line-height: 2vh;
+    color: #7788A3;
+  }
+  
