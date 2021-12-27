@@ -25,7 +25,7 @@
   }
   
 
-  @media all and (max-width:1400px){
+  @media all and (max-width:1300px){
     .actions >ul{
         height: 90%;
       }

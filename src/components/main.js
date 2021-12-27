@@ -38,7 +38,7 @@ function Main(){
                 <header >
                    <p>Manage Campaigns</p> 
                 </header>
-                <Nav handleCampaignType = {setCampaignType}/>
+                <Nav handleCampaignType = {setCampaignType} handleDataChanged={()=>{setDataChanged(!dataChanged)}}/>
                 <table className="main">
                     <thead>
                         <tr>

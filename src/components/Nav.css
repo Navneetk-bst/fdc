@@ -5,6 +5,7 @@
     border-bottom: 1px solid #F1F1F4 ; 
     /* transform: matrix(1, 0, 0, -1, 0, 0);; */
     margin-bottom: 3vh;
+    position: relative;
   }
   
   .link{
@@ -13,7 +14,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.4vh;
+    font-size: 1.7vh;
     line-height: 2.4vh;
     /* identical to box height, or 156% */
     color: #556789;
@@ -24,6 +25,15 @@
   
   .clicked-link{
     color: #83A515;
-    border-bottom: 2px solid;
+    border-bottom: 0.3vh solid;
     outline: none;
+  }
+
+  .add-campaign{
+    position: absolute;
+    right: 0;
+    background: none;
+    border :0;
+    font-size: 2.4vh;
+    color: #83A515;
   }

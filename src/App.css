@@ -12,14 +12,14 @@ a{
 }
 /* container */
 .container{
-  width: 90%;
+  width: 70%;
   margin: auto ;
   top:5% ;
   position: relative;
 }
 
 .non-clickable-container{
-  width: 90%;
+  width: 70%;
   margin: auto ;
   top:5% ;
   position: relative;
@@ -29,7 +29,7 @@ a{
 .icon{
   display: inline-block;
   vertical-align: bottom;
-  margin-right: 5px;
+  margin-right: 0.5vh;
 }
 
 /* PriceModel */
@@ -43,19 +43,19 @@ a{
 .priceModel{
   position:absolute;
   border : 2px solid ;
-  width : 250px ;
-  height: 300px;
+  width : 15vw ;
+  height: 25vh;
   background-color : white;
 }
 
 .priceModel > .close{
   border : 1px solid ; 
   padding: 2px ;
-  width : 50px ; 
-  height : 30px ;
+  width : 3vw ; 
+  height : 3vh ;
   cursor: pointer;
-  margin-top: 220px;
-  margin-left: 100px;
+  margin-top: 18vh;
+  margin-left: 6vw;
   text-align: center;
 }
 
@@ -64,8 +64,9 @@ a{
 
 .calendarModel{
   position:absolute;
-  width: 250px;
-  height: 200px;  
+  width: 18vw;
+  height: 15vh;  
+
 }
 
 
